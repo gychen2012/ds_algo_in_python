@@ -8,7 +8,7 @@ def count_vowel(data):
     count = 0
     vowels = 'aeiouAEIOU'
     for char in data:
-        if char in vovwels:
+        if char in vowels:
             count += 1
     return count
 
