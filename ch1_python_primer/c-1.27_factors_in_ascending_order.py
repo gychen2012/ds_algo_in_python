@@ -41,12 +41,12 @@ def factors(n):             # generator that computes factors
         if n % k == 0:
             yield k
             # yield n // k
-            larger_factors.append(n // k)
+            larger_factors.append(n // k) # temporarily append larger factors to a list
         k += 1
     if k * k == n:          # special case if n is perfect square
         yield k
     for factor in reversed(larger_factors):
-        yield factor
+        yield factor        # yield larger factors at the end
 
 fac_num = 1000
 factors = factors(fac_num)
