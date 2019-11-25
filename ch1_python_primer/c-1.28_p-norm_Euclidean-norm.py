@@ -1,7 +1,7 @@
 
 """
-The p-norm of a vector v = (v1,v2,...,vn) in n-dimensional space is de-
- fined as
+C-1.28
+The p-norm of a vector v = (v1,v2,...,vn) in n-dimensional space is defined as
 
 <formula>
 
